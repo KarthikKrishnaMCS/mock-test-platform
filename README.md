@@ -23,7 +23,10 @@ This project aims to build an end-to-end **AI-Powered Assessment Platform** that
 8. Next test includes personalized remedial items based on performance
 
 
-### 1. Clone the repository
+## Project Setup
+
+### Backend Setup
+#### 1. Clone the repository
 git clone https://github.com/your-repo/oelp-backend.git
 cd oelp-backend
 
