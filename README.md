@@ -27,12 +27,16 @@ This project aims to build an end-to-end **AI-Powered Assessment Platform** that
 
 ### Backend Setup
 #### 1. Clone the repository
+```bash
 git clone https://github.com/your-repo/oelp-backend.git
 cd oelp-backend
+```
 
-# 2. Create virtual environment
+#### 2. Create virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+```
 
 # 3. Install dependencies
 pip install -r requirements.txt
