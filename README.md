@@ -12,6 +12,14 @@ This project aims to build an end-to-end **AI-Powered Assessment Platform** that
 
 ![Opening Page](images/opening_page.png)
 
+## Interface Overview
+
+### Test Window
+![Test Screen](images/exam_window.png)
+
+### Analytics Dashboard
+![Analytics](images/analytics_page.png)
+
 ## High-Level Workflow
 
 1. User logs in or signs up
