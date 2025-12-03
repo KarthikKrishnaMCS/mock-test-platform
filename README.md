@@ -38,33 +38,44 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
-# 3. Install dependencies
+#### 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# 4. Set up Environment Variables (.env)
+#### 4. Set up Environment Variables (.env)
+```bash
 # DATABASE_URL=postgresql+asyncpg://...
 # GOOGLE_API_KEY=...
 # SECRET_KEY=...
+```
 
-# 5. Run Database Migrations
+#### 5. Run Database Migrations
+```bash
 alembic upgrade head
+```
 
-# 6. Seed Database
+#### 6. Seed Database
+```bash
 # Load Syllabus (Subjects/Chapters)
 python -m app.scripts.load_syllabus
 # Load Questions 
 python -m app.scripts.load_questions
+```
 
-# 7. Start Server
+#### 7. Start Server
+```bash
 uvicorn app.main:app --reload
+```
 
+```bash
 cd oelp-frontend
+```
 
-# 1. Install dependencies
+#### 1. Install dependencies
 flutter pub get
 
-# 2. Run the application
-# Replace with your local or hosted backend URL
+#### 2. Run the application
 flutter run -d chrome --dart-define=API_BASE_URL=http://127.0.0.1:8000
 
 
