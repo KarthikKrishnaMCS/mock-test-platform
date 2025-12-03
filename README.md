@@ -31,7 +31,7 @@ git clone https://github.com/KarthikKrishnaMCS/mock-test-platform.git
 ```
 
 ### Backend Setup
-#### 1. Enter the backend repository
+#### 1. Enter the backend folder
 ```bash
 cd oelp-backend
 ```
@@ -73,14 +73,14 @@ uvicorn app.main:app --reload
 ```
 
 ### Frontend Setup
+#### 1. Enter the frontend folder
 ```bash
 cd oelp-frontend
 ```
 
-#### 1. Install dependencies
-flutter pub get
-
 #### 2. Run the application
-flutter run -d chrome --dart-define=API_BASE_URL=http://127.0.0.1:8000
+```bash
+flutter run -d web-server 
+```
 
 
