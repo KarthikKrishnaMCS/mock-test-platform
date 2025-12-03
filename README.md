@@ -1,4 +1,4 @@
-# AI Powered Mock Test Platform for JEE and NEET
+# AI-Powered Mock Test Platform for JEE and NEET
 
 ## Project Overview
 
