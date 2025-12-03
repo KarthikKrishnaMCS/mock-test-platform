@@ -12,13 +12,6 @@ This project aims to build an end-to-end **AI-Powered Assessment Platform** that
 
 ![Opening Page](images/opening_page.png)
 
-## Interface Overview
-
-### Test Window
-![Test Screen](images/exam_window.png)
-
-### Analytics Dashboard
-![Analytics](images/analytics_page.png)
 
 ## High-Level Workflow
 
@@ -30,6 +23,24 @@ This project aims to build an end-to-end **AI-Powered Assessment Platform** that
 6. Analytics dashboard displays performance insights
 7. Weak areas are identified → RAG engine generates remedial questions
 8. Next test includes personalized remedial items based on performance
+
+
+## Interface Overview
+
+### Exam Selection
+![Exam Selection](images/exam_selection.png)
+
+### Test Selection
+![Test Selection](images/test_type.png)
+
+### Test Window
+![Test Screen](images/exam_window.png)
+
+### Analytics Dashboard
+![Analytics](images/analytics_page.png)
+
+### Test Analysis
+![Test Analysis](images/test_analysis.png)
 
 
 ## Project Setup
