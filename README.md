@@ -11,7 +11,7 @@ This project aims to build an end-to-end **AI-Powered Assessment Platform** that
 - **Retrieval-Augmented Generation (RAG) system for personalized remedial practice**
   
 
-## 🔄 High-Level Workflow
+## High-Level Workflow
 
 1. **User logs in or signs up**
 2. **Selects stream → subject → test type**
