@@ -25,10 +25,14 @@ This project aims to build an end-to-end **AI-Powered Assessment Platform** that
 
 ## Project Setup
 
-### Backend Setup
-#### 1. Clone the repository
+#### Clone the repository
 ```bash
-git clone https://github.com/your-repo/oelp-backend.git
+git clone https://github.com/KarthikKrishnaMCS/mock-test-platform.git
+```
+
+### Backend Setup
+#### 1. Enter the backend repository
+```bash
 cd oelp-backend
 ```
 
@@ -68,6 +72,7 @@ python -m app.scripts.load_questions
 uvicorn app.main:app --reload
 ```
 
+### Frontend Setup
 ```bash
 cd oelp-frontend
 ```
